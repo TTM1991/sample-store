@@ -53,17 +53,16 @@
 							"raw": "{\n        \"callbackUrl\": \"www.google.lk\",\n        \"clientName\": \"rest_api_store\",\n        \"owner\": \"admin\",\n        \"grantType\": \"password refresh_token\",\n        \"saasApp\": true\n}"
 						},
 						"url": {
-							"raw": "https://dev.apim.wso2.com/client-registration/v0.15/register",
+							"raw": "https://thilinim-8ju0ri4kw41c0tf2.socketxp.com/client-registration/v0.17/register",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
+								"thilinim-8ju0ri4kw41c0tf2",
+								"socketxp",
 								"com"
 							],
 							"path": [
 								"client-registration",
-								"v0.15",
+								"v0.17",
 								"register"
 							]
 						}
@@ -156,12 +155,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://dev.apim.wso2.com/token",
+							"raw": "https://thilinim-8ju0ri4kw41c0tf2.socketxp.com/token",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
+								"thilinim-8ju0ri4kw41c0tf2",
+								"socketxp",
 								"com"
 							],
 							"path": [
