@@ -14,8 +14,7 @@ availableTiers:
  -
   name: Bronze
   displayName: Bronze
-  description: Allows 1000 requests per minute
-  requestsPerMin: 1000
+  description: Allows 1000 requests per minute test
   requestCount: 1000
   unitTime: 1
   timeUnit: min
