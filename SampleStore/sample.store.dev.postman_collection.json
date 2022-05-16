@@ -53,12 +53,11 @@
 							"raw": "{\n        \"callbackUrl\": \"www.google.lk\",\n        \"clientName\": \"rest_api_store\",\n        \"owner\": \"admin\",\n        \"grantType\": \"password refresh_token\",\n        \"saasApp\": true\n}"
 						},
 						"url": {
-							"raw": "https://thilinim-8ju0ri4kw41c0tf2.socketxp.com/client-registration/v0.17/register",
+							"raw": "https://localhost:9444/client-registration/v0.17/register",
 							"protocol": "https",
 							"host": [
-								"thilinim-8ju0ri4kw41c0tf2",
-								"socketxp",
-								"com"
+								"localhost"
+
 							],
 							"path": [
 								"client-registration",
@@ -155,12 +154,11 @@
 							]
 						},
 						"url": {
-							"raw": "https://thilinim-8ju0ri4kw41c0tf2.socketxp.com/token",
+							"raw": "https://localhost:9444/token",
 							"protocol": "https",
 							"host": [
-								"thilinim-8ju0ri4kw41c0tf2",
-								"socketxp",
-								"com"
+								"localhost"
+
 							],
 							"path": [
 								"token"
@@ -223,19 +221,16 @@
 							"raw": "{\n    \"throttlingTier\": \"Unlimited\",\n    \"description\": \"sample app description\",\n    \"name\": \"sampleapp\",\n    \"callbackUrl\": \"http://my.server.com/callback\"\n}"
 						},
 						"url": {
-							"raw": "https://dev.apim.wso2.com/api/am/store/v0.15/applications",
+							"raw": "https://localhost:9444/api/am/store/v0.17/applications",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"localhost"
 							],
 							"path": [
 								"api",
 								"am",
 								"store",
-								"v0.15",
+								"v0.17",
 								"applications"
 							]
 						}
@@ -294,13 +289,11 @@
 							"raw": "{\n  \"validityTime\": \"3600\",\n  \"keyType\": \"SANDBOX\",\n  \"scopes\": [ \"am_application_scope\", \"default\" ],\n  \"grantTypesToBeSupported\": [ \"client_credentials\", \"password\" ]\n}"
 						},
 						"url": {
-							"raw": "https://dev.apim.wso2.com/api/am/store/v1.0/applications/{{sample_application_id}}/generate-keys",
+							"raw": "https://localhost:9444/api/am/store/v1.0/applications/{{sample_application_id}}/generate-keys",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"localhost"
+
 							],
 							"path": [
 								"api",
@@ -367,13 +360,10 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://dev.apim.wso2.com/api/am/store/v1.0/apis?query=\"SampleStore\"",
+							"raw": "https://localhost:9444/api/am/store/v1.0/apis?query=\"SampleStore\"",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"localhost"
 							],
 							"path": [
 								"api",
@@ -440,13 +430,10 @@
 							"raw": "{\n\"apiId\":\"{{samplestore_api_id}}\",\n\"applicationId\":\"{{sample_application_id}}\",\n\"throttlingPolicy\":\"Unlimited\",\n\"type\":\"API\"\n}"
 						},
 						"url": {
-							"raw": "https://dev.apim.wso2.com/api/am/store/v1.0/subscriptions",
+							"raw": "https://localhost:9444/api/am/store/v1.0/subscriptions",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"localhost"
 							],
 							"path": [
 								"api",
@@ -1003,19 +990,16 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "https://dev.apim.wso2.com/api/am/store/v0.15/applications/{{sample_application_id}}",
+							"raw": "https://localhost:9444/v0.17/applications/{{sample_application_id}}",
 							"protocol": "https",
 							"host": [
-								"dev",
-								"apim",
-								"wso2",
-								"com"
+								"localhost"
 							],
 							"path": [
 								"api",
 								"am",
 								"store",
-								"v0.15",
+								"v0.17",
 								"applications",
 								"{{sample_application_id}}"
 							]
@@ -1053,7 +1037,7 @@
 		{
 			"id": "baf5be5e-d86a-4cb7-a4ec-1e61389fff40",
 			"key": "baseUrl",
-			"value": "https://dev.apim.wso2.com:8243/SampleStore/1.0.0",
+			"value": "https://localhost:9444/SampleStore/1.0.0",
 			"type": "string"
 		}
 	],
