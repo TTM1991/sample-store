@@ -56,7 +56,7 @@
 							"raw": "https://localhost:9444/client-registration/v0.17/register",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 
 							],
 							"path": [
@@ -157,7 +157,7 @@
 							"raw": "https://localhost:9444/token",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 
 							],
 							"path": [
@@ -224,7 +224,7 @@
 							"raw": "https://localhost:9444/api/am/store/v0.17/applications",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 							],
 							"path": [
 								"api",
@@ -292,7 +292,7 @@
 							"raw": "https://localhost:9444/api/am/store/v1.0/applications/{{sample_application_id}}/generate-keys",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 
 							],
 							"path": [
@@ -363,7 +363,7 @@
 							"raw": "https://localhost:9444/api/am/store/v1.0/apis?query=\"SampleStore\"",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 							],
 							"path": [
 								"api",
@@ -433,7 +433,7 @@
 							"raw": "https://localhost:9444/api/am/store/v1.0/subscriptions",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 							],
 							"path": [
 								"api",
@@ -993,7 +993,7 @@
 							"raw": "https://localhost:9444/v0.17/applications/{{sample_application_id}}",
 							"protocol": "https",
 							"host": [
-								"localhost"
+								"localhost:9444"
 							],
 							"path": [
 								"api",
